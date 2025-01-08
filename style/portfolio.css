@@ -1,8 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
 *{
-  margin: 0;
+  /* margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 .open-sans-normal> {
   font-family: "Open Sans", serif;
@@ -21,7 +21,6 @@
 .dark-2{
   color: #474747;
 }
-/*Nav style*/
 
 .btn-primary{
   background: rgb(253, 110, 10);
@@ -32,6 +31,28 @@
  font-size: 20px;
  border-radius: 5px;
 }
+
+.section-title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #1E1E1E;
+}
+
+.section-description{
+  color: #757575;
+  font-size: 18px;
+}
+
+.secondary-background{
+  background-color: #FFF8F3;
+}
+
+.text-center{
+  text-align: center;
+}
+/*Nav style*/
+
+
 
 .header{
 background-image: url(/images/developer.png), url(/images/header_bg.png);
@@ -65,6 +86,8 @@ nav ul li a{
   text-decoration: none;
   font-size: 20px;
 }
+
+/*Banner stle*/
 .banner{
   display: flex;
   justify-content: space-between;
@@ -84,7 +107,92 @@ nav ul li a{
   font-size: 85px;
   font-weight: bold;
 }
-
 .banner-profile-picture{
   width: 689px;
+}
+
+/*Main style*/
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main section{
+  margin-top: 130px;
+}
+/*About section style*/
+.about{
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  
+}
+
+.about-iteams{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+}
+.iteam-description{
+  font-weight:600;
+}
+
+/*Skill syle*/
+.skill-container{
+  display: flex;
+  gap: 24px; 
+}
+.skill{
+  padding: 30px 10px;
+  box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px
+}
+
+.skill .skill-title  ,img , .skill-description{
+  padding-bottom: 30px;
+}
+
+/*Resume section style*/
+.resume-container{
+display: flex;
+}
+
+.experience-subtitle , .experience-description{
+  color: rgba(117, 117, 117, 1);
+  font-size: 16px;
+}
+.experience-subtitle{
+  font-size: 16px;
+  
+}
+.resume-column{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+ 
+}
+.resume-column-title{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.experience{
+  width: 551px;
+}
+.experience-title{
+  font-size: 17px;
+}
+.experience-description{
+  width: 500px;
+}
+.resume hr{
+  margin: 30px 5px;
+}
+.resume-download-CV{
+  margin-top: 50px;
+}
+
+/*Footer section style*/
+.footer{
+  display: flex;
 }
