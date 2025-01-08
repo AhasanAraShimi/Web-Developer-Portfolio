@@ -48,11 +48,11 @@
 /*Nav style*/
 
 .header{
-  background-image: url(images/developer.png), url(header-bg.pngg);;
+  background-image: url(images/developer.png), url(ha-bag.png);;
   background-repeat: no-repeat;
   background-position: top left, bottom right;
   }
-  
+
   nav{
     align-items: center;
     display: flex;
