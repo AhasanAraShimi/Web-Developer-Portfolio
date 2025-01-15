@@ -163,7 +163,7 @@ main section{
 .resume-column{
   display: flex;
   flex-direction: column;
-  padding: 30px;
+   padding: 30px;
 }
 .resume-column-title{
   font-size: 25px;
@@ -253,8 +253,6 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 
     .about{
       padding: 0;
-  
-
     }
 
     .banner{
@@ -274,26 +272,98 @@ footer input[type="text"], footer input[type="email"], footer textarea{
       gap: 50px;
     }
 
-    .resume-column{
+  .resume-column{
       padding: 0;
     }
 .btn-primary{
   margin-bottom: 20px;
 }
 .experience{
-  width: 48%;
+  min-width: 80%;
 }
 
 .resume hr{
   margin: 0;
 }
 
+
+.experience-subtitle , .experience-description{
+  color: rgba(117, 117, 117, 1);
+  font-size: 12px;
+}
+.experience-subtitle{
+  font-size: 12px;
+}
+
+.resume-column{
+  display: flex;
+  flex-direction: column;
+}
+.resume-column-title{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.experience-title{
+  font-size: 17px;
+}
+
+.experience-description{
+  width:90%;
+}
+
+.resume-download-CV{
+  margin-top: 50px;
+}
+.resume p{
+  text-align: left;
+}
   } 
+
+
+
 /*Tab Res*/
 @media screen and (min-width:576px) and (max-width:990px) {
 .banner{
   flex-direction: column;
 }
-  
+  .experience-subtitle , .experience-description{
+  color: rgba(117, 117, 117, 1);
+  font-size: 16px;
+}
+.experience-subtitle{
+  font-size: 16px;
+}
+
+.resume-column{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.resume-column-title{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.experience{
+  width: 551px;
+}
+
+.experience-title{
+  font-size: 17px;
+}
+
+.experience-description{
+  width: 500px;
+}
+
+.resume hr{
+  margin: 30px 5px;
+}
+.resume-download-CV{
+  margin-top: 50px;
+}
+
+
 
 }
