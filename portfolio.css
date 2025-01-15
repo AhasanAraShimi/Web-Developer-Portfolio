@@ -280,12 +280,10 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 .experience{
   max-width: fit-content;
+  margin-bottom: 20px;
 }
 .experience-description{
   width: 100%;
-}
-.resume hr{
-  margin-top: 20px;
 }
 
 .experience-subtitle{
@@ -304,9 +302,10 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 .resume-download-CV{
   margin-top: 50px;
 }
-.resume p{
+.experience p{
   text-align: left;
-  font-size: 12px;
+  font-size: 15px;
+  margin-bottom: 20px;
 }
 
 .resume .section-title{
