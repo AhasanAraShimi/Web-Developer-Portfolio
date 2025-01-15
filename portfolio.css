@@ -285,7 +285,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
   width: 100%;
 }
 .resume hr{
-  margin: 0;
+  margin-top: 15px;
 }
 
 .experience-subtitle{
